@@ -1,0 +1,10 @@
+applications:
+  - path: .
+    name: UMR-POC
+    environment_json: {}
+    memory: 256M
+    instances: 1
+    disk_quota: 1024M
+    services:
+      - umr-poc-db2
+      - Availability Monitoring-urm
